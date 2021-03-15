@@ -21,12 +21,12 @@ function NewCardFila2() {
             </div>
             <div className="row mt-3">
                 <div className="col-lg-12">
-                    <h5 className="home-product-title">Pate Food For Cats Whiskas</h5>
+                    <h5 className="home-product-title">Cat Treats Mety Bites Orgo</h5>
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-10">
-                    <h5 className="home-product-price">$38.00</h5>
+                    <h5 className="home-product-price">$35.00</h5>
                 </div>
             </div>
            
@@ -45,13 +45,13 @@ function NewCardFila2() {
 
             <div className="row mt-3">
                 <div className="col-lg-12">
-                    <h5 className="home-product-title">Adult Dog Food Pro Pac</h5>
+                    <h5 className="home-product-title">Adult Cat Food Earthborn</h5>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-lg-10">
-                    <h5 className="home-product-price">$36.99</h5>
+                    <h5 className="home-product-price">$40.00 <span style={{marginLeft:"5px" , color:"#ccc",textDecoration:"line-through"}}>$50.00</span></h5>
                 </div>
             </div>
         </div>
@@ -67,12 +67,12 @@ function NewCardFila2() {
             </div>
             <div className="row mt-3">
                 <div className="col-lg-12">
-                    <h5 className="home-product-title">Adult Dog Food Earthborn</h5>
+                    <h5 className="home-product-title">Royal Canin Fit & Active Cats</h5>
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg-10">
-                    <h5 className="home-product-price">$40.00 <span style={{marginLeft:"5px" , color:"#ccc",textDecoration:"line-through"}}>$50.00</span></h5>
+                    <h5 className="home-product-price">$40.00 </h5>
                 </div>
             </div>
            
@@ -89,13 +89,13 @@ function NewCardFila2() {
 
             <div className="row mt-3">
                 <div className="col-lg-12">
-                    <h5 className="home-product-title">Dry Food For Cats Whiskas</h5>
+                    <h5 className="home-product-title">Cats Treats Trixie Tuna Rolls</h5>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-lg-10">
-                    <h5 className="home-product-price">$43.00</h5>
+                    <h5 className="home-product-price">$28.99</h5>
                 </div>
             </div>
         </div>

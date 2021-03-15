@@ -1,13 +1,13 @@
 import React from 'react'
-import CardIconos1 from './CardIconos1'
+import CardIconos1 from '../../utils/CardIconos1'
 
-function Cardf2c2() {
+function Cardf2c4() {
     return (
     <div>
         <div class="home-product-card-container">
             <div className="card1">
                 <div  style={{overflow:"hidden"}}>
-                    <img src="./img/home/products/home-product-f2c2.jpg" className="img-fluid home-product-image"/>
+                    <img src="./img/home/products/new/home-product-f2c4.jpg" className="img-fluid home-product-image"/>
                 
                 </div>
         
@@ -26,4 +26,4 @@ function Cardf2c2() {
     )
 }
 
-export default Cardf2c2
+export default Cardf2c4

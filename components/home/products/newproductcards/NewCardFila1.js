@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
-import Cardf1c1 from '../cards/Cardf1c1';
-import Cardf1c2 from '../cards/Cardf1c2';
-import Cardf1c3 from '../cards/Cardf1c3';
-import Cardf1c4 from '../cards/Cardf1c4';
+import Cardf1c1 from './cards/Cardf1c1';
+import Cardf1c2 from './cards/Cardf1c2';
+import Cardf1c3 from './cards/Cardf1c3';
+import Cardf1c4 from './cards/Cardf1c4';
 
 function NewCardFila1() {
 
@@ -43,21 +43,21 @@ function NewCardFila1() {
                             <div>
                                 <img 
                                     onClick={() => handleMenuIcon('uno')}
-                                    src="./img/home/products/home-product-f1c1.jpg"
+                                    src="./img/home/products/new/home-product-f1c1.jpg"
                                     className="img-fluid home-product-menu-image"
                                 />
                             </div>
                             <div>
                                 <img 
                                     onClick={() => handleMenuIcon('dos')}
-                                    src="./img/home/products/home-product-f1c1dos.jpg" 
+                                    src="./img/home/products/new/home-product-f1c1dos.jpg" 
                                     className="img-fluid home-product-menu-image"
                                     />
                             </div>
                             <div>
                                 <img 
                                     onClick={() => handleMenuIcon('tres')}
-                                    src="./img/home/products/home-product-f1c1tres.jpg" 
+                                    src="./img/home/products/new/home-product-f1c1tres.jpg" 
                                     width="1000"
                                     className="img-fluid home-product-menu-image"/>
                             </div>
@@ -118,14 +118,14 @@ function NewCardFila1() {
                             <div>
                                 <img 
                                     onClick={() => handleMenuIconColum3('uno')}
-                                    src="./img/home/products/home-product-f1c3.jpg"
+                                    src="./img/home/products/new/home-product-f1c3.jpg"
                                     className="img-fluid home-product-menu-image"
                                 />
                             </div>
                             <div>
                                 <img 
                                     onClick={() => handleMenuIconColum3('dos')}
-                                    src="./img/home/products/home-product-f1c3dos.jpg"
+                                    src="./img/home/products/new/home-product-f1c3dos.jpg"
                                     className="img-fluid home-product-menu-image"
                                     width="1000"
                                     />
@@ -133,7 +133,7 @@ function NewCardFila1() {
                             <div>
                                 <img 
                                     onClick={() => handleMenuIconColum3('tres')}
-                                    src="./img/home/products/home-product-f1c3tres.jpg"
+                                    src="./img/home/products/new/home-product-f1c3tres.jpg"
                                     width="1000"
                                     className="img-fluid home-product-menu-image"/>
                             </div>
