@@ -159,7 +159,7 @@ const handleMenuIconColum3 = (name) => {
 
                 <div className="row">
                     <div className="col-lg-2">
-                        <h5 className="home-product-price">$40.00<span style={{marginLeft:"5px" , color:"#ccc",textDecoration:"line-through"}}>$50.00</span></h5>
+                        <h5 className="home-product-price">$40.00 <span style={{marginLeft:"5px" , color:"#ccc",textDecoration:"line-through"}}>$50.00</span></h5>
                     </div>
                 </div>
             </div>
