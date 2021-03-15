@@ -1,9 +1,12 @@
 import React from 'react'
+import NewCardFila1 from './saleproductcards/NewCardFila1'
+import NewCardFila2 from './saleproductcards/NewCardFila2'
 
 function SaleProduct() {
     return (
         <div>
-            Sale producto
+            <NewCardFila1/>
+            <NewCardFila2/>
         </div>
     )
 }
