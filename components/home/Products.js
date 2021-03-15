@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 import Link from 'next/link'
-import NewProduct from './products/newproduct';
-import BestProduct from './products/bestproduct';
-import SaleProduct from './products/saleproduct';
+import NewProduct from './products/NewProduct'
+import BestProduct from './products/BestProduct'
+import SaleProduct from './products/SaleProduct'
+
 function Products() {
     const [activeItem, setActiveItem] = useState('');
     const handleMenu  = (name) =>{
