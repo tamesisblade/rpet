@@ -1,31 +1,30 @@
 import React from 'react'
 
-function Cardf1c1({imagenSelect}) {
+function Cardf1c3({imagenSelect}) {
 
-  function ImagenMenu(){
-    if(imagenSelect == 'uno'){
+    function ImagenMenu(){
+        if(imagenSelect == 'uno'){
+            return(
+                <img src="./img/home/products/home-product-f1c3.jpg" className="img-fluid home-product-image"/>
+            )
+        }
+        if(imagenSelect == 'dos'){
+            return(
+                <img src="./img/home/products/home-product-f1c3dos.jpg" className="img-fluid home-product-image"/>
+            )
+        }
+        if(imagenSelect == 'tres'){
+            return(
+                <img src="./img/home/products/home-product-f1c3tres.jpg" className="img-fluid home-product-image"/>
+            )
+        }
         return(
-            <img src="./img/home/products/home-product-f1c1.jpg" className="img-fluid home-product-image"/>
+            <div>
+                <img src="./img/home/products/home-product-f1c3.jpg" className="img-fluid home-product-image"/>
+            </div>
         )
+       
     }
-    if(imagenSelect == 'dos'){
-        return(
-            <img src="./img/home/products/home-product-f1c1dos.jpg" className="img-fluid home-product-image"/>
-        )
-    }
-    if(imagenSelect == 'tres'){
-        return(
-            <img src="./img/home/products/home-product-f1c1tres.jpg" className="img-fluid home-product-image"/>
-        )
-    }
-    return(
-        <div>
-            <img src="./img/home/products/home-product-f1c1.jpg" className="img-fluid home-product-image"/>
-        </div>
-    )
-   
-}
-
 
     return (
         <div class="home-product-card-container">
@@ -68,4 +67,4 @@ function Cardf1c1({imagenSelect}) {
     )
 }
 
-export default Cardf1c1
+export default Cardf1c3
