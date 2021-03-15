@@ -12,7 +12,7 @@ function Cardf2c2() {
                 </div>
         
           
-                {/* Iconos hover parte derecha    */}
+                {/* Iconos hover parte derecha ..    */}
 
                 <CardIconos1/>
           
