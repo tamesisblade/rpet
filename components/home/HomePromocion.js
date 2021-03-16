@@ -4,7 +4,7 @@ import HomePromocionResponsive from './utils/HomePromocionResponsive'
 function HomePromocion() {
     return (
        
-<div>
+<div className="mt-5 mt-sm-5">
     <div className="d-block d-sm-block d-lg-none ">
          <HomePromocionResponsive/>
     </div>    

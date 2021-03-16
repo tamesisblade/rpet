@@ -9,8 +9,8 @@ function NewCardFila1() {
 
     return (
        
-        <div className="row">
-            <div className="col-lg-3">
+        <div className="row ml-1 ml-sm-1">
+            <div className="col-lg-3 col-6 col-sm-6">
 
                 <div className="row">
                     <div className="col-lg-12  home-product-image">
@@ -33,7 +33,7 @@ function NewCardFila1() {
 
             </div>
             {/* Termina Menu Product Fila 1 Columna 1 */}
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-6 col-sm-6">
                 
                 <div className="row">
                     <div className="col-lg-12  home-product-image">
@@ -57,8 +57,8 @@ function NewCardFila1() {
 
             {/* Termina Menu Product Fila 1 Columna 2 */}
 
-            <div className="col-lg-3">
-            <div className="row">
+            <div className="col-lg-3 col-6 col-sm-6">
+                <div className="row">
                     <div className="col-lg-12  home-product-image">
                         <Cardf1c3 />
                         
@@ -78,7 +78,7 @@ function NewCardFila1() {
               
             </div>
             {/* Termina Menu Product Fila 1 Columna 3 */}
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-6 col-sm-6">
                 <div className="row">
                     <div className="col-lg-12  home-product-image">
                         <Cardf1c4/>

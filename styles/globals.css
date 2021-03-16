@@ -147,7 +147,8 @@ a {
 		-o-transition: -o-transform .3s ease-out;
 		transition: transform .3s ease-out
 	}
-	
+	/*END SLIDER*/
+	/*HOME WELCOME*/
 	.modal-video-movie-wrap iframe {
 		position: absolute;
 		top: 0;
@@ -204,6 +205,19 @@ a {
 		cursor: pointer;
 		
 	}
+	.welcome_view_button{
+		font-size: 20px;
+		background: none;
+		padding: 15px 20px;
+		border: 1px #000 solid;
+	}
+	.welcome_view_button:hover{
+		color: white;
+		background: orange;
+		border: none;
+	
+	}
+	/*END HOME WELCOME*/
 	/*HOME ANIMAL*/
 	
 	.home-animal-p:hover{
@@ -230,7 +244,7 @@ a {
 	/*HOME PRODUCT*/
 	.home-product-menu{
 		font-size: 18px;
-		margin: 0px 20px;
+		margin: 0px 10px;
 		transition: all .3s linear;
 		transform-origin: center center;
 		object-fit: cover;
@@ -397,6 +411,20 @@ a {
 				background-position: center;
 			}	
 			/*END MEDIA QUERY SLIDER*/
+
+			/*MEDIA QUERY HOME PRODUCTS*/
+
+			.home-product-menu{
+				font-size: 12px;
+				width: 100px;
+		
+				
+				cursor: pointer;
+				
+			}
+			
+			/*END MEDIA QUERY HOME PRODUCTS*/
+			/*MEDIA QUERY HOME PROMOCION*/
 			.welcome_boton{
 				position:relative;
 				left: 150px;
@@ -412,6 +440,7 @@ a {
 			.home-promocion-bg{
 				height: 200px;
 			}
+			/*END MEDIA QUERY HOME PROMOCION*/
 			
 			.footer-img {
 				width: 50%;

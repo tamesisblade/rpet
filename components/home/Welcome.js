@@ -66,7 +66,7 @@ function Welcome() {
                     </div>
                     <div className="row">
                         <div className="col-lg-3 mt-4">
-                            <button className={styles.welcome_button}>View Now</button>
+                            <button className="welcome_view_button">View Now</button>
                         </div>
                     </div>
                 </div>

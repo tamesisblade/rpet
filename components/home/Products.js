@@ -52,20 +52,20 @@ function Products() {
                     <div>
                       
                        
-                        <button
+                        <a
                             className="home-product-menu"
                             onClick={() => handleMenu('new')}
                             
                             >
                                   {/* <span className="text-success ">{activeItem}</span> */}
                              NEW ARRIVALS
-                        </button>
+                        </a>
                       
                        
                        
                     </div>
 
-                    <div>
+                    <a>
                         <button
                             className="home-product-menu"
                             onClick={() => handleMenu('best')}
@@ -74,9 +74,9 @@ function Products() {
                              BEST SELLERS
                         </button>
                         
-                    </div>
+                    </a>
 
-                    <div>
+                    <a>
                         <button
                             className="home-product-menu"
                             onClick={() => handleMenu('sale')}
@@ -89,7 +89,7 @@ function Products() {
                           
                       
                         
-                    </div>
+                    </a>
                 </div>
 
             </div>
