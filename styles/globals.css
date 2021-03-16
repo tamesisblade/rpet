@@ -245,14 +245,24 @@ a {
 	.home-product-menu{
 		font-size: 18px;
 		margin: 0px 10px;
-		transition: all .3s linear;
-		transform-origin: center center;
-		object-fit: cover;
-		border:none;
-		background: none;
+		position: relative;
+	
 	}
-	.home-product-menu:hover {
-		border-bottom: 3px solid #000;
+	.home-product-menu:after{
+		content: "";
+		width: 0%;
+		height: 2px;
+		background: black;
+		position: absolute;
+		left:  50%;
+		transform: translateX(-50%);
+		bottom: 0;
+		transition: 0.4s ease;
+	
+	}
+	.home-product-menu:hover:after {
+		width: 100%;	
+
 	}
 	.home-product-title{
 		padding-left:10px;

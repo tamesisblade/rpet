@@ -52,44 +52,46 @@ function Products() {
                     <div>
                       
                        
-                        <a
+                        <h3
+                            
                             className="home-product-menu"
                             onClick={() => handleMenu('new')}
                             
                             >
                                   {/* <span className="text-success ">{activeItem}</span> */}
                              NEW ARRIVALS
-                        </a>
+                            
+                        </h3>
                       
                        
                        
                     </div>
 
-                    <a>
-                        <button
+                    <h3
+                        
                             className="home-product-menu"
                             onClick={() => handleMenu('best')}
                             
                             >
                              BEST SELLERS
-                        </button>
+                       
                         
-                    </a>
+                    </h3>
 
-                    <a>
-                        <button
+                    <h3
+                        
                             className="home-product-menu"
                             onClick={() => handleMenu('sale')}
                             
                             >
                              SALES
-                        </button>
+                       
                       
                        
                           
                       
                         
-                    </a>
+                    </h3>
                 </div>
 
             </div>
